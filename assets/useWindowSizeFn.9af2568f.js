@@ -1,0 +1,1 @@
+import{cg as o,ch as d,bF as a}from"./index.f13df184.js";function m(r,s=150,n){let e=()=>{r()};e=a(e,s);const t=()=>{n&&n.immediate&&e(),window.addEventListener("resize",e)},i=()=>{window.removeEventListener("resize",e)};return o(()=>{t()}),d(()=>{i()}),[t,i]}export{m as u};
